@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto Estadistica I - RAYDC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>PROYECTO ESTADÍSTICA I</h1>
+    <h2>Generador de Tabla de Frecuencia Agrupada</h2>
+
+    <label>Ingrese los datos separados por espacio:</label>
+    <textarea id="datos"></textarea>
+    <button id="btnCalcular">Calcular tabla y medidas</button>
+
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Intervalo</th>
+                <th>Marca</th>
+                <th>Frec. Abs</th>
+                <th>Frec. Acum</th>
+                <th>Frec. Rel</th>
+                <th>Frec. %</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Resultados:</h2>
+    <div class="results" id="resultados"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
