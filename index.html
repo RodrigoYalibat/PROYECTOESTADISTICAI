@@ -1,37 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Proyecto Estadistica I - RAYDC</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frecuencia Agrupada - Proyecto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="container">
-    <h1>PROYECTO ESTADÍSTICA I</h1>
-    <h2>Generador de Tabla de Frecuencia Agrupada</h2>
 
-    <label>Ingrese los datos separados por espacio:</label>
-    <textarea id="datos"></textarea>
-    <button id="btnCalcular">Calcular tabla y medidas</button>
+    <div class="container">
+        <h1 class="titulo">
+            <span class="t1">Generador de</span>
+            <span class="t2">Tabla de</span>
+            <span class="t3">Frecuencia</span>
+            <span class="t4">Agrupada</span>
+        </h1>
 
-    <table id="tabla">
-        <thead>
-            <tr>
-                <th>Intervalo</th>
-                <th>Marca</th>
-                <th>Frec. Abs</th>
-                <th>Frec. Acum</th>
-                <th>Frec. Rel</th>
-                <th>Frec. %</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+        <label for="datos">Ingrese los datos separados por espacios o comas:</label>
+        <textarea id="datos" class="area"></textarea>
 
-    <h2>Resultados:</h2>
-    <div class="results" id="resultados"></div>
-</div>
-<script src="script.js"></script>
+        <button id="btnCalcular">Calcular</button>
+
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Intervalo</th>
+                    <th>Marca</th>
+                    <th>Frec. Abs</th>
+                    <th>Frec. Acum</th>
+                    <th>Frec. Rel</th>
+                    <th>Frec. %</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h2>Resultados</h2>
+        <div id="resultados" class="results"></div>
+
+        <button id="btnLimpiar">Limpiar</button>
+    </div>
+
+    <footer class="footer">
+        Rodrigo Andrés Yalibat del Cid<br>
+        Estudiante de Ingeniería en Ciencias y Sistemas<br>
+        Universidad Mariano Gálvez<br>
+        Cuarto Semestre de 2025
+    </footer>
+
+    <div id="alerts"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
