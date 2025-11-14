@@ -24,8 +24,6 @@ El proyecto permite:
   - Número de clases  
   - Amplitud de clase  
 
-El diseño está pensado para **PC**, con una interfaz centrada, amplia y legible, usando una **paleta de colores “trendy grey”**: tonos grises para el fondo, rojos para los títulos y texto blanco general. La fuente utilizada para los títulos es **Anton**, mientras que el resto de la interfaz utiliza fuentes monoespaciadas para los datos y resultados.
-
 ## Características adicionales
 
 - Interfaz centrada y espaciosa para PC.  
@@ -36,4 +34,6 @@ El diseño está pensado para **PC**, con una interfaz centrada, amplia y legibl
 ## Autor
 
 **Rodrigo Andrés Yalibat del Cid**  
-Estudiante de **Ingeniería en Ciencias y Sistemas**, Universidad Mariano Gálvez.
+Estudiante de **Ingeniería en Ciencias y Sistemas**
+Universidad Mariano Gálvez.
+_Cuarto Semestre de 2025_
