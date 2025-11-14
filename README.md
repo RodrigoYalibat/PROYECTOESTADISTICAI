@@ -34,6 +34,9 @@ El proyecto permite:
 ## Autor
 
 **Rodrigo Andrés Yalibat del Cid**  
+
 Estudiante de **Ingeniería en Ciencias y Sistemas**
+
 Universidad Mariano Gálvez.
+
 _Cuarto Semestre de 2025_
